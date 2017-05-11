@@ -81,6 +81,7 @@ name TEXT,
 age INTEGER,
 breed TEXT,
 owner_id INTEGER);
+CREATE TABLE owners (id INTEGER PRIMARY KEY, name TEXT);
 ```
 
 Great, now we're ready to associate cats to their owners by creating an owner and assigning that owner's ID to certain cats' `owner_id` column. 
